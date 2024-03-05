@@ -18,8 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'deploy'
-                // Add deployment steps if needed
+                sh 'nonexistentcommand'
             }
         }
     }
